@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.simpsonFamily {
+    background: #ecefef;
+    text-align: center;
+    padding: 20px;
+}
+
+.simpsonFamily > h1 {
+    text-shadow: 1px 1px 2px #c7b705, 0 0 1em #43a838, 0 0 0.2em #1fa116;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.simpsonFamily img {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.simpsonFamilyDescription {
+    padding: 10px 15px;
+    background-color: #e5e7e8;
+}
+
+.simpsonFamilyDescription > p {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.simpson, .members {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.members > img {
+    height: 80%;
+}
+
+.members {
+    width: 25%;
+    height: 300px;
+    margin: 15px 15px;
+}
+
+.members:hover {
+    border: 2px solid aquamarine;
+    border-radius: 50%;
+    background-color: #eaea5b;
+}
+
+.simpson {
+    width: 100%;
+    background-color: #f5eee2;
+}
+
+.members > h2 > a {
+    text-decoration: none;
+    text-shadow: #cb0c7e 2px 0 10px;
+}
+
+.members > h2 > a:hover {
+    color: red;
+}
+
+.person {
+    width: 100%;
+}
+
+.person, .person_image, .person_catchphrase {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #eeeef1;
+}
+
+.person > img {
+    width: 100%;
+}
+
+.person_image, .person_catchphrase {
+    width: 40%;
+}
+
+.person_catchphrase h3 {
+    margin: 3px;
+    font-size: 18px;
+}
+
+.person_catchphrase ul {
+    list-style-type: none;
+}
+
+.person_catchphrase div {
+    border: 2px solid #7c7e7c;
+    border-radius: 15px;
+    background: #d8dcd8;
+    padding: 3px;
+    margin: 3px;
+}
+
+.person_description {
+    padding: 10px 25px;
+}
+
+.container_button {
+    width: 100%;
+}
+
+.container_button button {
+    width: 100%;
+    padding: 5px;
+    background: #b6b3b3;
+    border: none;
+}
+
+.container_button a button {
+    font-size: 18px;
+}
+
+.container_button a button:hover {
+    margin: 0;
+    color: #eaea5b;
+    background-color: #7c7e7c;
+}
+
+.container_wedding_day, .container_bart_img, .container_lisa_img {
+    width: 100%;
+}
+
+.wedding_day_image, .bart_img, .container_lisa_img {
+    text-align: center;
+    padding-right: 10px;
+}
+
+.wedding_day_image {
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+}
+
+.bart_img, .lisa_img {
+    max-width: 10%;
+    height: auto;
+    float: right;
+    margin: 0 10px;
+}
+
+.wedding_day_image img, .bart_img img, .lisa_img img {
+    width: 100%;
+}
+
+.bart_img img, .lisa_img img {
+    padding: 5px;
+}
+
+.person_description p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.person_description h2 {
+    font-size: 26px;
+}
+
+.person_description h3 {
+    font-size: 22px;
+}
+
+.image_text h5 {
+    margin: 0;
+}
