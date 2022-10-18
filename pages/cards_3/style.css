@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: -webkit-center;
+}
+
+.dsfx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #dedddd;
+    width: 95vw;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 15px;
+    border: 2px solid darkgray;
+}
+.container_cards {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    row-gap: 10px;
+
+}
+.icon{
+    font-size: 52px;
+    color: rgba(0, 0, 0, 0.68);
+    width: 18%;
+}
+
+.cards {
+    background-color: white;
+    border: 2px solid darkgray;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 48%;
+    align-items: center;
+}
+.card_description {
+    width: 80%;
+    font-size: 22px;
+    color: #666868;
+}
+.card_description>h3{
+    color: #a84d02;
+}
+
+.button-73 {
+    font-weight: 700;
+    font-size: 1rem;
+    appearance: none;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    display: inline-block;
+    font-family: -apple-system, sans-serif;
+    letter-spacing: -.24px;
+    margin: 0;
+    padding: 5px 25px;
+    outline: none;
+    transition: all .15s;
+}
+
+.button-73:hover {
+    background-color: #29c6ff;
+    box-shadow: #0d1aaa 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.button-73:active {
+    transform: scale(1.025);
+}
+
+

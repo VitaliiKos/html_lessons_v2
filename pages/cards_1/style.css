@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    text-align: -webkit-center;
+}
+
+.dsfx {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container {
+    background-color: #dedddd;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 15px;
+    border: 2px solid darkgray;
+}
+
+.container_cards {
+    column-gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.cards {
+    background-color: white;
+    border: 2px solid darkgray;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 45px 15px 25px;
+    width: 30%;
+    align-items: center;
+}
+
+.card_description {
+    width: 80%;
+    font-size: 22px;
+    color: #666868;
+}
+.for_button{
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-59 {
+    font-size: 16px;
+    align-items: center;
+    border: 2px solid #000;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter, sans-serif;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    transition: all .3s;
+}
+
+.button-59:focus {
+    color: #171e29;
+}
+
+.button-59:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
+
+.button-59:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
+
+.button-73 {
+    font-weight: 700;
+    font-size: 1rem;
+    appearance: none;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    display: inline-block;
+    font-family: -apple-system, sans-serif;
+    letter-spacing: -.24px;
+    margin: 0;
+    padding: 5px 25px;
+    outline: none;
+    transition: all .15s;
+}
+
+.button-73:hover {
+    background-color: #29c6ff;
+    box-shadow: #0d1aaa 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.button-73:active {
+    transform: scale(1.025);
+}
+
+
+@media (min-width: 768px) {
+    .button-59 {
+        min-width: 170px;
+        padding: 0 5px;
+    }
+
+    .button-73 {
+        font-size: 1.2rem;
+    }
+
+}
+@media (max-width: 720px) {
+    .container_cards {
+        flex-direction: column;
+        row-gap: 15px;
+        justify-content: center;
+    }
+    .cards{
+        width: 80%;
+    }
+    .container_cards{
+        align-items: center;
+    }
+
+
+    .button-59 {
+        min-width: inherit;
+        padding: 0 5px;
+    }
+
+    .button-73 {
+        font-size: 1.2rem;
+    }
+
+}
+

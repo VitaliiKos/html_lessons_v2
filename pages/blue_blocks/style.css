@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    text-align: -webkit-center;
+}
+.button{
+    width: 100%;
+}
+.button>button{
+    width: 70%;
+}
+
+.widgets, .container {
+    display: flex;
+}
+
+.container {
+    flex-wrap: nowrap;
+    width: 60vw;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+}
+
+.widgets {
+    justify-content: center;
+    align-items: center;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.bg_light_blue {
+    background-color: #2269bb;
+}
+
+.bg_dark_blue {
+    background-color: #16457a;
+}
+
+.jf_content {
+    justify-content: space-between;
+}
+
+h3 {
+    color: white;
+    font-family: roboto, sans-serif;
+    margin: 0;
+}
+
+.w_calc {
+    width: calc(100% / 3 - 15px);
+}
+
+.button-73 {
+   appearance: none;
+   background-color: #FFFFFF;
+   border-radius: 40em;
+   border-style: none;
+   box-shadow: #ADCFFF 0 -12px 6px inset;
+   box-sizing: border-box;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-family: -apple-system,sans-serif;
+   font-size: 1rem;
+   font-weight: 700;
+   letter-spacing: -.24px;
+   margin: 0;
+    padding: 5px 25px;
+   outline: none;
+   text-align: center;
+   text-decoration: none;
+   transition: all .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.button-73:hover {
+    background-color: #29c6ff;
+    box-shadow: #0d1aaa 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.button-73:active {
+    transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+    .button-73 {
+        font-size: 1.2rem;
+    }
+}
