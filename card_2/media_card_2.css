@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+    .wrap {
+        row-gap: 25px;
+        padding: 25px;
+    }
+
+    .block {
+        flex-direction: column;
+    }
+
+    .wrap_block, .class_H {
+        width: 100%;
+    }
+
+    .class_H {
+        height: 200px;
+    }
+
+    .class_Bcdefg {
+        width: 27%;
+        height: 150px;
+
+    }
+
+
+}

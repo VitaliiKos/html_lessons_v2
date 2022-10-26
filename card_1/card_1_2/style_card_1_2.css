@@ -1,0 +1,40 @@
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 75%;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.class_CDE{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.class_B, .class_C, .class_D, .class_E{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #b9babd;
+    height: 150px;
+}
+
+.class_C, .class_D, .class_E {
+    width: 30%;
+}
+.class_F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-radius: 15px;
+    background-color: #b9babd;
+}

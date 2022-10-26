@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+    .wrap {
+        row-gap: 25px;
+        padding: 25px;
+    }
+
+    .content {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: auto;
+        row-gap: 25px;
+    }
+
+    .content > div:nth-child(1), .content > div:nth-child(2) {
+        width: 100%;
+    }
+
+    .content > div:nth-child(1) {
+        height: 300px;
+    }
+
+    .content > div:nth-child(2) {
+        height: 150px;
+    }
+
+}
