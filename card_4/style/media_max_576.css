@@ -1,0 +1,10 @@
+@media screen and (max-width: 576px) {
+    .content__block_8,
+    .content__block_9,
+    .content__block_5,
+    .content__block_4 {
+        width: 100%;
+    }
+
+
+    }

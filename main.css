@@ -136,3 +136,7 @@ body {
 .button-73:active {
     transform: scale(1.025);
 }
+.icon{
+    font-size: 26px;
+    color: #fcd505;
+}
