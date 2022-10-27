@@ -34,7 +34,7 @@ body {
     background-color: darkgray;
     flex-wrap: nowrap;
     width: 70vw;
-    height: 40vh;
+    height: 60vh;
     flex-direction: column;
     row-gap: 10px;
     box-sizing: border-box;
